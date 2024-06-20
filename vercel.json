@@ -9,11 +9,11 @@
     "routes": [
      {
          "src": "/(.*)",
-         "dest": "/public/index.html"
+         "dest": "./public/index.html"
      },
      {
         "src": "/cars",
-        "dest": "/public/cars.html"
+        "dest": "./public/cars.html"
      }
     ]
  }
