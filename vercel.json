@@ -3,7 +3,7 @@
     "routes": [
      {
         "src": "/cars",
-        "dest": "/api/cars"
+        "dest": "./public/cars.html"
      }
     ]
  }
