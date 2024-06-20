@@ -2,8 +2,8 @@
     "version": 2,
     "routes": [
      {
-        "src": "/cars",
-        "dest": "./public/cars.html"
+        "source": "/(.*)", 
+        "destination": "/"
      }
     ]
  }
