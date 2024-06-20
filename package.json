@@ -1,0 +1,14 @@
+{
+  "name": "challenges-4",
+  "version": "1.0.0",
+  "description": "Project HTTP Server dan DOM",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "node server/index.js"
+  },
+  "author": "Alfikiyar Tirta Haidar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

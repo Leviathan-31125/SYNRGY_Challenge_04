@@ -1,0 +1,384 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3, h5 {
+    font-weight: 700 !important;
+}
+
+h5 {
+    margin: 0;
+}
+
+#home {
+    background-color: #F1F3FF;
+    height: 100vh;
+}
+
+.jumbotron-custom {
+    margin-left: 7rem; 
+    height: 93vh;
+}
+
+.jumbotron-custom button {
+    background-color: #5CB85F;
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+    padding-inline: 12px;
+    padding-block: 8px;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav {
+    padding-inline: 7rem;
+    height: 7vh;
+}
+
+.service-content {
+    width: 30%;
+}
+
+#our-service, #testimonial, #cta-banner, #faq, #search-button, #footer, #result{
+    margin-top: 6rem;
+}
+
+#our-service .content-service {
+    gap: 70px
+}
+
+#why-us {
+    margin-top: 6rem;
+    padding-inline: 7rem;
+}
+
+#why-us .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#why-us .card-body div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.bullet {
+    background-color: #CFD4ED;
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-block: 3px;
+}
+
+.brand-custome {
+    background-color: #0D28A6;
+    width: 100px;
+    height: 34px;
+}
+
+.my-button {
+    background-color: #5CB85F !important;
+    color: white !important;
+    border: none !important;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-menu {
+    display: none !important;
+}
+
+.owl-carousel .item {
+    background-color: #F1F3FF;
+
+    padding-block: 2rem;
+    padding-inline: 2rem;
+    border-radius: 10px;
+}
+
+.star span {
+    color: yellow;
+}
+
+.button-nav {
+    color: black;
+    background-color: white;
+    border: rgb(138, 137, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-nav:hover {
+    background-color: #5CB85F;
+    color: white;
+    border: none;
+}
+
+.cta-banner-layout {
+    background-color: #0D28A6;
+    color: white;
+    border-radius: 2rem;
+}
+
+.cta-banner-layout p {
+    padding-inline: 25%;
+    margin-block: 2rem;
+}
+
+#faq h2 {
+    font-weight: 700;
+}
+
+#search-button {
+    font-weight: 700;
+}
+
+#search-button button {
+    border: none;
+}
+
+.result {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    row-gap: 15px;
+}
+
+.card-result {
+    width: 30%;
+    padding: 16px;
+
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-result .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+
+    height: 466px;
+}
+
+.card-result img {
+    width: 100%;
+    height: 40%;
+    object-fit: fill;
+}
+
+.card-result .btn-choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    
+    background-color: #5CB85F;
+    color: white;
+    border-radius: 8px;
+    
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.card-result .btn-choose:hover{
+    background-color: #82d785;
+} 
+
+#footer {
+    margin-bottom: 3rem;
+}
+
+#footer .action-menu {
+    font-weight: 600;
+}
+
+#footer .action-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer .social-media {
+    position: relative;
+    width: 32px;
+    height: 32px;
+
+    background-color: #0D28A6;
+    color: white;
+
+    border-radius: 50%;
+}
+
+#footer .social-media:hover {
+    background-color: #4c64ce;
+    
+    width: 33px;
+    height: 33px;
+}
+
+#footer i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+}
+
+.offcanvas {
+    width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+    .card-result{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        padding-inline: 1rem !important;
+    }
+
+    p {
+        text-align: start !important;
+    }
+
+    .menu-item{
+        display: none !important;
+    }
+
+    .sidebar-menu {
+        display: block !important;
+    }
+
+    .sidebar-item a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .sidebar-menu button {
+        border: none;
+        background-color: #F1F3FF;
+        color: #222222;
+    }
+
+    .sidebar-menu button > i {
+        font-size: 24px;
+    }
+
+    .jumbotron-custom {
+        margin-left: 0 !important;
+        margin-top: 4rem;
+
+        display: flex;
+        gap: 0 !important;
+        flex-direction: column;
+        justify-content: space-between !important;
+    }
+
+    .jumbotron-custom > .jumbotron {
+        width: 100% !important;
+        padding-inline: 1rem !important;
+    }
+
+    .lead {
+        text-align: start;
+    }
+
+    #our-service {
+        margin-top: 7rem !important;
+    }
+
+    .content-service {
+        padding-inline: 1rem;
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+
+    .content-service img {
+        width: fit-content;
+        padding: 10px !important;
+    }
+
+    .service-content {
+        width: 100% !important;
+    }
+
+    .service-content p {
+        text-align: start !important;
+    }
+
+    #why-us {
+        padding-inline: 1rem !important;
+    }
+
+    #why-us h3{
+        text-align: center;
+    }
+
+    #why-us > p {
+        text-align: center !important;
+    }
+
+    .special-service {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    #testimonial {
+        padding-inline: 1rem !important;
+    }
+
+    .testimonial-image {
+        width: 8rem !important;
+        margin: auto;
+    }
+
+    .item .row {
+        gap: 15px;
+    }
+
+    .star {
+        text-align: center;
+    }
+
+    .item p {
+        margin-top: 15px;
+        text-align: start !important;
+    }
+
+    #cta-banner {
+        padding-inline: 1rem !important;
+    }
+
+    .cta-banner-layout p {
+        padding-inline: 10px !important;
+    }
+
+    #faq h2 {
+        text-align: center;
+    }
+
+    #footer .row .col p{
+        text-align: start !important;
+    }
+}
