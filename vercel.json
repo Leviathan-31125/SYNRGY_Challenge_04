@@ -2,10 +2,6 @@
     "version": 2,
     "routes": [
      {
-        "src": "/(.*)",
-        "dest": "/"
-     },
-     {
         "src": "/cars",
         "dest": "/cars"
      }
