@@ -4,10 +4,6 @@
         {
             "source": "/cars", 
             "destination": "./public/cars.html"
-        },
-        {
-            "source": "/(.*)", 
-            "destination": "/"
         }
     ]
  }
